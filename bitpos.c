@@ -31,7 +31,7 @@
 /* {{{ arginfo */
 ZEND_BEGIN_ARG_INFO(arginfo_get_bit_positions, 0)
     ZEND_ARG_INFO(0, data)
-ZEND_END_ARG_INFO()
+ZEND_END_ARG_INFO();
 /* }}} */
 
 /* {{{ bitpos_functions[]
