@@ -1,0 +1,8 @@
+// $Id$
+// vim:ft=javascript
+
+ARG_ENABLE("bitpos", "enable bitpos support", "no");
+
+if (PHP_BITPOS != "no") {
+	EXTENSION("bitpos", "bitpos.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
